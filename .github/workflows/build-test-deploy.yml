@@ -11,4 +11,4 @@ jobs:
         with: 
           node-version: '20.x'
       - run: npm install
-      - run: nprm run build
+      - run: npm run build
