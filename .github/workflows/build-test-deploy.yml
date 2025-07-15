@@ -21,7 +21,7 @@ jobs:
       - name: test application
         uses: actions/checkout@v4
       - name: use node.js
-        uses: actions/setup-npm@v4
+        uses: actions/setup-node@v4
         with:
           node-version: '20.x'
       - run: npm install
