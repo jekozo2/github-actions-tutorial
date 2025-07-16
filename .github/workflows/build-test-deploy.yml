@@ -1,9 +1,11 @@
 
 name: build-test-deploy
 on: 
-  push:
+  # push:
   schedule:
     - cron: "*/5 * * * *"
+  workflow_dispatch: #Manual trigger
+    
 jobs:
   build:
     runs-on: ubuntu-latest
