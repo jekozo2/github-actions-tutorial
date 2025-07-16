@@ -1,6 +1,9 @@
 
 name: build-test-deploy
-on: push
+on: 
+  push
+  schedule:
+    - "*/5 * * * *"
 jobs:
   build:
     runs-on: ubuntu-latest
