@@ -9,6 +9,12 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      - name: Print current directory
+        run: pwd && ls -al
+      - name: Checkout code
+        uses: actions/checkout@v4
+      - name: Print current directory after code checkout
+        run: pwd && ls -al
       - name: Check python version
         run: python --version
         
