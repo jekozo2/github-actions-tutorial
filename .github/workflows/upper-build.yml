@@ -9,4 +9,5 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - run: python version
+      - name: Check python version
+        run: python --version
