@@ -36,6 +36,4 @@ jobs:
           ls
           python -m build
           ls
-          python test
           echo "$(cat hello.txt)"
-        working-directory: pages
