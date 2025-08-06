@@ -15,7 +15,7 @@ jobs:
       - name: Update python version
         uses: actions/setup-python@v5
         with:
-          python-version: '5.6.0'
+          python-version: '3.13.0'
           
       - name: Check updated python version
         run: python --version
