@@ -1,11 +1,6 @@
 name: upper-build
 
 on: push
-  # push:
-  #   paths:
-  #   - "github/workflows/upper-build.yml"
-  #   - "upper/**"
-  workflow_dispatch: #manual
 
 jobs:
   build:
